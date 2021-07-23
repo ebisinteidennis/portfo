@@ -24,6 +24,10 @@ def work():
 def works():
     return render_template('works.html')
 
+@app.route('/thankyou.html')
+def works():
+    return render_template('thankyou.html')
+
 
 def write_to_csv(data):
     with open('database.csv', mode='a') as database1:
